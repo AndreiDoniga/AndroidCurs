@@ -3,20 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".F2A2">
+    tools:context=".F1A2">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="F2A2" />
+        android:text="F1A2" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:text="Button 2" />
+        android:text="Button 1" />
 
 </RelativeLayout>

@@ -12,16 +12,10 @@ class Activity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_2)
 
-        val fragment = F2A2()
+        val fragment = F1A2()
         val transaction = supportFragmentManager.beginTransaction()
-        transaction
-
-
-        val button = findViewById<Button>(R.id.button)
-        button?.setOnClickListener()
-        {
-
-        }
+        transaction.replace(R.id.container, fragment)
+        transaction.commit()
 
     }
 
